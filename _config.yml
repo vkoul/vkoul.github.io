@@ -41,6 +41,10 @@ nav:
   - title: About
     url: /about/
 
+collections:
+  summaries:
+    output: true
+    permalink: /booksummaries/:year/:month/:day/:title/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

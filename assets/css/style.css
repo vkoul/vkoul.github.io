@@ -105,3 +105,38 @@ footer a {
 footer a:hover {
     color: #ffffff; /* White on hover */
 }
+
+/* Bookshelf page and summaries styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #f5f5f5;
+    background-color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #ffa500;
+    font-weight: bold;
+}
+
+a {
+    color: #ffa500;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #2b2b2b;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
