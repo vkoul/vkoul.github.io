@@ -4,3 +4,10 @@
 
 layout: home
 ---
+👋, I am Vikesh Koul
+
+- You probably came here to read my [blog](/blog/).
+- I spend my time [reading](/reading/) and [writing](/writing/).
+- Mostly active on Twitter: [@vkoul](https://twitter.com/vkoul)
+
+Thanks for checking out my blog. Have a great day! 😊
