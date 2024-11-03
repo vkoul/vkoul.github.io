@@ -4,10 +4,15 @@
 
 layout: page
 ---
-👋, I am Vikesh Koul
+<div class="content-container">
+    <h1 class="intro-heading">👋, I am Vikesh Koul</h1>
+    <ul>
+        <li>You probably came here to read my <a href="/blog/">blog</a>.</li>
+        <li>I spend my time <a href="/reading/">reading</a> and <a href="/writing/">writing</a>.</li>
+        <li>Mostly active on Twitter: <a href="https://twitter.com/vkoul">@vkoul</a></li>
+    </ul>
+    <p>Thanks for checking out my blog. Have a great day! 😊</p>
+</div>
 
-- You probably came here to read my [blog](/blog/).
-- I spend my time [reading](/reading/) and [writing](/writing/).
-- Mostly active on Twitter: [@vkoul](https://twitter.com/vkoul)
 
-Thanks for checking out my blog. Have a great day! 😊
+

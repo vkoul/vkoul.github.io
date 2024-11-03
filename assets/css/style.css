@@ -215,3 +215,421 @@ h1, p {
     text-align: center;            /* Make sure the header and paragraph text are centered */
 }
 
+/* General layout - Make body more cohesive with content */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #f5f5f5;
+    background-color: #222222;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header and Link Styling for Consistent Look */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #ffa500; /* Consistent orange color for headings */
+    margin: 1.5rem 0; /* Add consistent spacing for headings */
+    text-align: center; /* Center headings */
+}
+
+h1 {
+    font-size: 3rem; /* Larger size for main headings for emphasis */
+}
+
+h2 {
+    font-size: 2.25rem; /* Increase for subheadings */
+}
+
+/* General container class for consistent central content */
+.container {
+    width: 90%;
+    max-width: 900px; /* Slightly wider for consistency */
+    margin: 0 auto;
+    padding: 2rem 0; /* Reduce padding to avoid box-like appearance */
+    text-align: center; /* Center the container content */
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between; /* Spread links evenly */
+    align-items: center;
+}
+
+nav a {
+    color: #ffa500;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* List Items - for Book Summaries, Bullet points */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    text-align: left; /* Align list items to left for a natural read */
+}
+
+ul li::before {
+    content: "•"; /* Add bullet points manually */
+    color: #ffa500; /* Orange bullet points */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; /* Align bullet point with text */
+}
+
+/* Bookshelf page and summaries styling */
+.summary {
+    max-width: 900px; /* Keep a similar max-width to container */
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: center; /* Center-align the summaries */
+    padding: 1rem 0; /* Add padding for spacing */
+}
+
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem; /* Increase readability */
+    line-height: 1.8;
+    color: #f5f5f5;
+    background-color: #222222;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #333;
+    padding: 1rem 2rem;
+    width: 100%; /* Full-width navbar */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; /* Space out links */
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem; /* Add spacing between nav items */
+}
+
+nav a {
+    color: #ffa500;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px; /* Constrain the content for readability */
+    margin: 2rem auto; /* Center the container */
+    padding: 2rem;
+    text-align: center; /* Center-align text within container */
+}
+
+/* List Items */
+ul {
+    list-style-type: none; /* Remove default bullet styling */
+    padding: 0;
+    margin: 1rem 0;
+}
+
+ul li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    text-align: left; /* Align the text of each list item */
+    padding-left: 20px; /* Add padding to keep some spacing for bullets */
+    position: relative;
+}
+
+ul li:before {
+    content: "•"; /* Add custom bullet */
+    position: absolute;
+    left: 0;
+    color: #ffa500; /* Match bullet color with the theme */
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5rem; /* Larger heading */
+    color: #ffa500; /* Orange for headings */
+    text-align: center;
+}
+
+h2, h3, h4 {
+    font-weight: bold;
+    color: #ffa500;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: #333;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* Button Styling (for potential buttons) */
+button, .btn {
+    background-color: #ffa500;
+    color: #222;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #ff8500;
+}
+
+/* Container Styling for Consistent Layout */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #222222; /* Match background color */
+    color: #f5f5f5; /* Light text for readability */
+}
+
+/* Header Styling */
+.content-header h1 {
+    font-size: 2.5rem; /* Prominent size for headings */
+    color: #ffa500; /* Consistent color for headings */
+    margin-bottom: 1rem; /* Add spacing below the header */
+    text-align: center; /* Centered header */
+}
+
+/* Note Section Styling */
+.note-section {
+    font-size: 1rem; /* Slightly smaller text for the note */
+    color: #cccccc; /* Light grey for distinction */
+    margin-bottom: 2rem; /* Space between the note and main content */
+    padding: 1rem;
+    background-color: #2b2b2b; /* Slight contrast from main container */
+    border-radius: 5px; /* Rounded corners for a smoother look */
+    text-align: left; /* Align text to the left for better readability */
+}
+
+/* Summary Content Styling */
+.summary-content p {
+    font-size: 1.2rem; /* Base text for summary content */
+    line-height: 1.6; /* Comfortable line height for readability */
+    text-align: left; /* Align text to the left for easy reading */
+    margin-bottom: 1rem; /* Space below each paragraph */
+}
+
+/* Add Padding between Sections */
+.summary-content {
+    padding: 1rem 0;
+}
+
+/* General Container Styling */
+.content-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto; /* Centers the container */
+    padding: 1.5rem;
+    color: #f5f5f5; /* Light text */
+    background-color: #222222; /* Dark background */
+    text-align: center; /* Center align text within the container */
+}
+
+/* Headings */
+/* General Container Styling */
+.content-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 2rem auto; /* Centers the container */
+    padding: 1.5rem;
+    color: #f5f5f5; /* Light text */
+    background-color: #222222; /* Dark background */
+    text-align: left; /* Align text to the left */
+}
+
+/* Headings */
+.content-container h1 {
+    font-size: 2.5rem; /* Consistent font size for headings */
+    font-weight: 700;
+    color: #ffa500; /* Consistent orange color */
+    margin-bottom: 1.5rem; /* Add space below the heading */
+}
+
+/* List Styling */
+.content-container ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin-left: 0; /* Align list with other content */
+}
+
+.content-container ul li {
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 1.5rem; /* Space for custom bullet */
+}
+
+.content-container ul li::before {
+    content: "•"; /* Custom bullet */
+    color: #ffa500; /* Orange color to match theme */
+    position: absolute;
+    left: 0;
+    top: 0.3rem; /* Vertically align bullet */
+    font-size: 1.5rem; /* Bigger bullet for emphasis */
+}
+
+/* Paragraph Styling */
+.content-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 1.5rem;
+}
+
+/* Navbar Styling Adjustment */
+nav {
+    display: flex;
+    justify-content: space-between; /* Keeps branding and links aligned */
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav a {
+    color: #ffa500;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navbar Styling Adjustment */
+nav {
+    display: flex;
+    justify-content: space-between; /* Keep name aligned with other links */
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav a {
+    color: #ffa500;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* General Container Styling */
+.content-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 2rem auto; /* Centers the container horizontally */
+    padding: 1.5rem;
+    color: #f5f5f5; /* Light text */
+    background-color: #222222; /* Dark background */
+    text-align: left; /* Aligns the container content to the left */
+}
+
+/* Headings */
+.intro-heading {
+    font-size: 1.8rem; /* Smaller size to align with bullets */
+    font-weight: 700;
+    color: #ffa500; /* Consistent orange color */
+    margin: 0; /* Removes default margins for precise alignment */
+    padding-left: 1.5rem; /* Align heading with the bullet points */
+}
+
+/* List Styling */
+.content-container ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 1.5rem 0 0 0; /* Top margin for space from heading */
+}
+
+.content-container ul li {
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 1.5rem; /* Space for custom bullet */
+}
+
+.content-container ul li::before {
+    content: "•"; /* Custom bullet */
+    color: #ffa500; /* Orange color to match theme */
+    position: absolute;
+    left: 0; /* Align bullet exactly on the left edge */
+    top: 0.3rem; /* Vertically align bullet */
+    font-size: 1.5rem; /* Bigger bullet for emphasis */
+}
+
+/* Paragraph Styling */
+.content-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 1.5rem; /* Space above paragraph for separation */
+    padding-left: 1.5rem; /* Align with bullet points */
+}
+
+/* Navbar Styling Adjustment */
+nav {
+    display: flex;
+    justify-content: space-between; /* Keeps branding and links aligned */
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav a {
+    color: #ffa500;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
